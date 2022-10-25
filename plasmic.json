@@ -1,0 +1,175 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+      "projectApiToken": "OwBw3JFEDmjhkYXkOOrIt99eyk7xAmOOMLkgRj5ebDYIP9jKS3F9ZVUd6YBdrSTrdIUWcZ68VaZflmdTVHRsg",
+      "projectName": "Plasmic Chat App",
+      "version": "latest",
+      "cssFilePath": "plasmic/plasmic_chat_app/plasmic_plasmic_chat_app.module.css",
+      "components": [
+        {
+          "id": "OlUZWKGexJE0",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "5uvEhgkJah",
+          "name": "Test",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicTest.jsx",
+          "importSpec": {
+            "modulePath": "Test.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicTest.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "GoXSSwCM9cM",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "fYmcZ6DgAe",
+          "name": "Login",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicLogin.jsx",
+          "importSpec": {
+            "modulePath": "../pages/login.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicLogin.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Y_RrwUO0qj",
+          "name": "Signup",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicSignup.jsx",
+          "importSpec": {
+            "modulePath": "../pages/signup.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicSignup.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "mG6Doo9823",
+          "name": "AuthComponent",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicAuthComponent.jsx",
+          "importSpec": {
+            "modulePath": "AuthComponent.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicAuthComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "D_5NwTMa2Ey",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        }
+      ],
+      "icons": [
+        {
+          "id": "2VukVvM3mTt",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/plasmic_chat_app/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "DhFxhvmKV_h",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/plasmic_chat_app/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "mP6wsY2-5di",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/plasmic_chat_app/icons/PlasmicIcon__Searchsvg.jsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "V1wotiVswo",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "7OGP4kg46x",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "D8MG_gZxmo20y",
+        "name": "Screen",
+        "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+        "contextFilePath": "plasmic/plasmic_chat_app/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.186",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
+}
