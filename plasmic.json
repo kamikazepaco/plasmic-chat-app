@@ -137,6 +137,11 @@
           "id": "mP6wsY2-5di",
           "name": "SearchsvgIcon",
           "moduleFilePath": "plasmic/plasmic_chat_app/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "d7LwcxceQ",
+          "name": "DoubleRing38S200PxsvgIcon",
+          "moduleFilePath": "plasmic/plasmic_chat_app/icons/PlasmicIcon__DoubleRing38S200Pxsvg.jsx"
         }
       ],
       "images": [],
