@@ -13,7 +13,7 @@
     {
       "name": "Primary",
       "type": "color",
-      "value": "#0F9096",
+      "value": "#30A46C",
       "category": "color",
       "meta": {
         "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
@@ -28,6 +28,16 @@
       "meta": {
         "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
         "id": "tPsrwbJ-A"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+        "id": "TAWQPSVfN"
       }
     }
   ],

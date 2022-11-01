@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C900&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C900&display=swap");
 
 .plasmic_tokens {
-  --token-wp-x-Nm2f: #0f9096;
+  --token-wp-x-Nm2f: #30a46c;
   --plasmic-token-primary: var(--token-wp-x-Nm2f);
   --token-tPsrwbJ-A: #821ca1;
   --plasmic-token-secondary: var(--token-tPsrwbJ-A);
   --token-Hcw6TzRVi: #f3f3f3;
   --plasmic-token-background: var(--token-Hcw6TzRVi);
+  --token-TAWQPSVfN: #ffffff;
+  --plasmic-token-unnamed-style-token: var(--token-TAWQPSVfN);
 }
 
 .plasmic_default_styles {

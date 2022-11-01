@@ -44,8 +44,8 @@ function PlasmicHomepage__RenderFunc(props) {
 
       <div className={projectcss.plasmic_page_wrapper}>
         <div
-          data-plasmic-name={"root"}
-          data-plasmic-override={overrides.root}
+          data-plasmic-name={"root2"}
+          data-plasmic-override={overrides.root2}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
@@ -54,21 +54,14 @@ function PlasmicHomepage__RenderFunc(props) {
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
-            sty.root
+            sty.root2
           )}
         >
-          <h1
-            data-plasmic-name={"h1"}
-            data-plasmic-override={overrides.h1}
-            className={classNames(
-              projectcss.all,
-              projectcss.h1,
-              projectcss.__wab_text,
-              sty.h1
-            )}
-          >
-            {"Plasmic Chat App"}
-          </h1>
+          <div
+            data-plasmic-name={"mainSection"}
+            data-plasmic-override={overrides.mainSection}
+            className={classNames(projectcss.all, sty.mainSection)}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -76,8 +69,8 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "h1"],
-  h1: ["h1"]
+  root2: ["root2", "mainSection"],
+  mainSection: ["mainSection"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -100,7 +93,7 @@ function makeNodeComponent(nodeName) {
       forNode: nodeName
     });
   };
-  if (nodeName === "root") {
+  if (nodeName === "root2") {
     func.displayName = "PlasmicHomepage";
   } else {
     func.displayName = `PlasmicHomepage.${nodeName}`;
@@ -110,10 +103,10 @@ function makeNodeComponent(nodeName) {
 
 export const PlasmicHomepage = Object.assign(
   // Top-level PlasmicHomepage renders the root element
-  makeNodeComponent("root"),
+  makeNodeComponent("root2"),
   {
     // Helper components rendering sub-elements
-    h1: makeNodeComponent("h1"),
+    mainSection: makeNodeComponent("mainSection"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps,

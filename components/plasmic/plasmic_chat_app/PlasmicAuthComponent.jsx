@@ -125,6 +125,12 @@ function PlasmicAuthComponent__RenderFunc(props) {
           data-plasmic-name={"submitButton"}
           data-plasmic-override={overrides.submitButton}
           className={classNames("__wab_instance", sty.submitButton, {
+            [sty.submitButtonisError]: hasVariant(
+              variants,
+              "isError",
+              "isError"
+            ),
+
             [sty.submitButtonisLoading]: hasVariant(
               variants,
               "isLoading",

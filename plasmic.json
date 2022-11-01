@@ -120,6 +120,58 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "text-input"
+        },
+        {
+          "id": "HdGlyRlxme",
+          "name": "Layout",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicLayout.jsx",
+          "importSpec": {
+            "modulePath": "Layout.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicLayout.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CmVoENMZXh",
+          "name": "Sidebar",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicSidebar.jsx",
+          "importSpec": {
+            "modulePath": "Sidebar.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicSidebar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qJKP5isJlr",
+          "name": "Chat",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicChat.jsx",
+          "importSpec": {
+            "modulePath": "Chat.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicChat.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "FQyAt-uxPU",
+          "name": "Avatar",
+          "type": "managed",
+          "projectId": "3BrPZrmc1kdrM9wAtZgcTj",
+          "renderModuleFilePath": "plasmic/plasmic_chat_app/PlasmicAvatar.jsx",
+          "importSpec": {
+            "modulePath": "Avatar.jsx"
+          },
+          "cssFilePath": "plasmic/plasmic_chat_app/PlasmicAvatar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -144,7 +196,13 @@
           "moduleFilePath": "plasmic/plasmic_chat_app/icons/PlasmicIcon__DoubleRing38S200Pxsvg.jsx"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "id": "zwH_RRwhm",
+          "name": "logout.svg",
+          "filePath": "../public/plasmic/plasmic_chat_app/images/logoutsvg.svg"
+        }
+      ],
       "indirect": false,
       "globalContextsFilePath": "",
       "codeComponents": [
@@ -175,6 +233,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.186",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
+  "cliVersion": "0.1.187",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.187/dist/plasmic.schema.json"
 }

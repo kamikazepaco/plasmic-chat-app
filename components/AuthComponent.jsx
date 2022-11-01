@@ -16,6 +16,9 @@ function AuthComponent_(props, ref) {
     <PlasmicAuthComponent
       root={{ ref }}
       {...props}
+      isError={!!authError}
+      errorMessage={authError?.message}
+      isLoading={loading}
       emailInput={{
         value: email,
         onChange: (e) => setEmail(e.target.value),
@@ -33,7 +36,7 @@ function AuthComponent_(props, ref) {
             if (props.isSignUpFlow) {
               authFunction = await supabase.auth.signUp({ email, password });
             } else {
-              authFunction = await supabase.auth.signIn({
+              authFunction = await supabase.auth.signInWithPassword({
                 email,
                 password,
               });
